@@ -24,4 +24,4 @@ def create_character(character_name,strength,intelligence,charisma):
         intel = "INT " + (full_dot * intelligence) + (empty_dot * (10 - intelligence))
         cha = "CHA " + (full_dot * charisma) + (empty_dot * (10 - charisma))
         return name + "\n" + stre+"\n" +intel+"\n"+cha
-create_character('koushik',3,2,2)
+print(create_character('koushik',3,2,2))
